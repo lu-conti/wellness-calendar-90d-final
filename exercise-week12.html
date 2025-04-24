@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>365-Day Wellness Calendar - Exercise Week 12</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>365-Day Wellness Calendar</h1>
+        <div class="theme-toggle-container">
+            <label for="theme-toggle" class="theme-label">Dark Mode</label>
+            <input type="checkbox" id="theme-toggle" class="theme-toggle">
+        </div>
+    </header>
+    
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Calendar</a></li>
+            <li><a href="exercise.html" class="nav-link active">Exercise Program</a></li>
+            <li><a href="grocery.html" class="nav-link">Grocery Lists</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <!-- Exercise Program View -->
+        <section id="exercise-view" class="view-section active">
+            <div class="exercise-header">
+                <h2>12-Week Exercise Program</h2>
+                <div class="location-toggle">
+                    <label for="location-toggle">Exercise Location:</label>
+                    <select id="location-toggle">
+                        <option value="home">Home</option>
+                        <option value="gym">Gym</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="week-navigation">
+                <a href="exercise-week1.html" class="nav-button">Week 1</a>
+                <a href="exercise-week2.html" class="nav-button">Week 2</a>
+                <a href="exercise-week3.html" class="nav-button">Week 3</a>
+                <a href="exercise-week4.html" class="nav-button">Week 4</a>
+                <a href="exercise-week5.html" class="nav-button">Week 5</a>
+                <a href="exercise-week6.html" class="nav-button">Week 6</a>
+                <a href="exercise-week7.html" class="nav-button">Week 7</a>
+                <a href="exercise-week8.html" class="nav-button">Week 8</a>
+                <a href="exercise-week9.html" class="nav-button">Week 9</a>
+                <a href="exercise-week10.html" class="nav-button">Week 10</a>
+                <a href="exercise-week11.html" class="nav-button">Week 11</a>
+                <a href="exercise-week12.html" class="nav-button active">Week 12</a>
+            </div>
+            
+            <div class="exercise-content">
+                <div class="week-info">
+                    <h3>Current Week: Week 12</h3>
+                    <p class="week-focus">Focus: Peak Performance Integration</p>
+                </div>
+                
+                <div class="exercise-days">
+                    <div class="exercise-day">
+                        <h4>Day 1: Zone 2 Cardio (25-30 minutes)</h4>
+                        <div class="exercise-details home-workout">
+                            <p>Choose one:</p>
+                            <ul>
+                                <li>Brisk walking/jogging with fartlek intervals (random speed play)</li>
+                                <li>Cycling with standing and seated intervals</li>
+                                <li>Swimming with varied strokes and breathing patterns</li>
+                                <li>Rowing machine with varied intensity</li>
+                                <li>Jump rope intervals (30 seconds on, 30 seconds walking)</li>
+                            </ul>
+                            <p>Intensity: Moderate effort with brief higher intensity periods</p>
+                            <p>Duration: 25-30 minutes</p>
+                        </div>
+                        <div class="exercise-details gym-workout" style="display: none;">
+                            <p>Choose one:</p>
+                            <ul>
+                                <li>Treadmill with fartlek intervals (random speed play)</li>
+                                <li>Elliptical trainer with varied resistance and stride patterns</li>
+                                <li>Stationary bike with standing and seated intervals</li>
+                                <li>Rowing machine with varied intensity</li>
+                                <li>Stair climber with varied pace</li>
+                            </ul>
+                            <p>Intensity: Moderate effort with brief higher intensity periods</p>
+                            <p>Duration: 25-30 minutes</p>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="exercise-checkbox" id="exercise-week12-day1">
+                            <label for="exercise-week12-day1">Completed</label>
+                        </div>
+                    </div>
+                    
+                    <div class="exercise-day">
+                        <h4>Day 2: Full Body Strength Circuit (25-30 minutes)</h4>
+                        <div class="exercise-details home-workout">
+                            <p>Complete 3 rounds of this circuit with minimal rest between exercises:</p>
+                            <ul>
+                                <li>Push-ups (standard or modified): 12 reps</li>
+                                <li>Bodyweight squats: 15 reps</li>
+                                <li>Resistance band rows: 12 reps</li>
+                                <li>Reverse lunges: 10 each leg</li>
+                                <li>Plank: 30 seconds</li>
+                                <li>Glute bridges: 15 reps</li>
+                                <li>Rest 60 seconds between rounds</li>
+                            </ul>
+                            <p>Focus on proper form and controlled movement</p>
+                        </div>
+                        <div class="exercise-details gym-workout" style="display: none;">
+                            <p>Complete 3 rounds of this circuit with minimal rest between exercises:</p>
+                            <ul>
+                                <li>Chest press (machine or dumbbell): 12 reps</li>
+                                <li>Leg press or squats: 15 reps</li>
+                                <li>Seated rows: 12 reps</li>
+                                <li>Reverse lunges: 10 each leg</li>
+                                <li>Plank: 30 seconds</li>
+                                <li>Hip extension machine: 15 reps</li>
+                                <li>Rest 60 seconds between rounds</li>
+                            </ul>
+                            <p>Focus on proper form and controlled movement</p>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="exercise-checkbox" id="exercise-week12-day2">
+                            <label for="exercise-week12-day2">Completed</label>
+                        </div>
+                    </div>
+                    
+                    <div class="exercise-day">
+                        <h4>Day 3: Rope Flow & Animal Flow Combo (25-30 minutes)</h4>
+                        <div class="exercise-details home-workout">
+                            <p>Mobility warm-up (5 minutes):</p>
+                            <ul>
+                                <li>Cat-cow stretch: 15 repetitions</li>
+                                <li>World's greatest stretch: 8 each side</li>
+                                <li>Hip circles: 15 each direction</li>
+                                <li>Shoulder circles: 15 each direction</li>
+                            </ul>
+                            <p>Combo Flow Circuit (repeat 3 times):</p>
+                            <ul>
+                                <li>Rope Flow: Figure 8 pattern for 45 seconds</li>
+                                <li>Beast position hold: 30 seconds</li>
+                                <li>Rope Flow: Side swings for 45 seconds</li>
+                                <li>Side kickthrough: 6 each side</li>
+                                <li>Rope Flow: Overhead circles for 45 seconds</li>
+                                <li>Beast to crab transition: 8 repetitions</li>
+                                <li>Rest 45 seconds between circuits</li>
+                            </ul>
+                            <p>Cool down with gentle stretching (5 minutes)</p>
+                        </div>
+                        <div class="exercise-details gym-workout" style="display: none;">
+                            <p>Mobility warm-up (5 minutes):</p>
+                            <ul>
+                                <li>Cat-cow stretch: 15 repetitions</li>
+                                <li>World's greatest stretch: 8 each side</li>
+                                <li>Hip circles: 15 each direction</li>
+                                <li>Shoulder circles: 15 each direction</li>
+                            </ul>
+                            <p>Combo Flow Circuit (repeat 3 times):</p>
+                            <ul>
+                                <li>Battle Rope: Alternating waves for 45 seconds</li>
+                                <li>Beast position hold: 30 seconds</li>
+                                <li>Battle Rope: Double arm waves for 45 seconds</li>
+                                <li>Side kickthrough: 6 each side</li>
+                                <li>Battle Rope: Side-to-side waves for 45 seconds</li>
+                                <li>Beast to crab transition: 8 repetitions</li>
+                                <li>Rest 45 seconds between circuits</li>
+                            </ul>
+                            <p>Cool down with gentle stretching (5 minutes)</p>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="exercise-checkbox" id="exercise-week12-day3">
+                            <label for="exercise-week12-day3">Completed</label>
+                        </div>
+                    </div>
+                    
+                    <div class="exercise-day">
+                        <h4>Day 4: Zone 2 Cardio (25-30 minutes)</h4>
+                        <div class="exercise-details home-workout">
+                            <p>Choose one (different from Day 1):</p>
+                            <ul>
+                                <li>Brisk walking/jogging with fartlek intervals (random speed play)</li>
+                                <li>Cycling with standing and seated intervals</li>
+                                <li>Swimming with varied strokes and breathing patterns</li>
+                                <li>Rowing machine with varied intensity</li>
+                                <li>Jump rope intervals (30 seconds on, 30 seconds walking)</li>
+                            </ul>
+                            <p>Intensity: Moderate effort with brief higher intensity periods</p>
+                            <p>Duration: 25-30 minutes</p>
+                        </div>
+                        <div class="exercise-details gym-workout" style="display: none;">
+                            <p>Choose one (different from Day 1):</p>
+                            <ul>
+                                <li>Treadmill with fartlek intervals (random speed play)</li>
+                                <li>Elliptical trainer with varied resistance and stride patterns</li>
+                                <li>Stationary bike with standing and seated intervals</li>
+                                <li>Rowing machine with varied intensity</li>
+                                <li>Stair climber with varied pace</li>
+                            </ul>
+                            <p>Intensity: Moderate effort with brief higher intensity periods</p>
+                            <p>Duration: 25-30 minutes</p>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="exercise-checkbox" id="exercise-week12-day4">
+                            <label for="exercise-week12-day4">Completed</label>
+                        </div>
+                    </div>
+                    
+                    <div class="exercise-day">
+                        <h4>Day 5: Full Body Strength Circuit (25-30 minutes)</h4>
+                        <div class="exercise-details home-workout">
+                            <p>Complete 3 rounds of this circuit with minimal rest between exercises:</p>
+                            <ul>
+                                <li>Squat to overhead press with resistance band: 12 reps</li>
+                                <li>Push-up to side plank: 6 each side</li>
+                                <li>Single-leg deadlift with row (resistance band): 10 each side</li>
+                                <li>Glute bridge with chest fly (resistance band): 12 reps</li>
+                                <li>Plank with shoulder taps: 20 taps total</li>
+                                <li>Standing wood chop (resistance band): 10 each side</li>
+                                <li>Rest 60 seconds between rounds</li>
+                            </ul>
+                            <p>Focus on proper form and controlled movement</p>
+                        </div>
+                        <div class="exercise-details gym-workout" style="display: none;">
+                            <p>Complete 3 rounds of this circuit with minimal rest between exercises:</p>
+                            <ul>
+                                <li>Squat to overhead press (dumbbell): 12 reps</li>
+                                <li>Renegade row: 6 each side</li>
+                                <li>Single-leg deadlift with row (cable): 10 each side</li>
+                                <li>Cable chest fly: 12 reps</li>
+                                <li>Plank with shoulder taps: 20 taps total</li>
+                                <li>Cable wood chop: 10 each side</li>
+                                <li>Rest 60 seconds between rounds</li>
+                            </ul>
+                            <p>Focus on proper form and controlled movement</p>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="exercise-checkbox" id="exercise-week12-day5">
+                            <label for="exercise-week12-day5">Completed</label>
+                        </div>
+                    </div>
+                    
+                    <div class="exercise-day">
+                        <h4>Day 6: HIIT Challenge (20-25 minutes)</h4>
+                        <div class="exercise-details home-workout">
+                            <p>Warm up: 5 minutes light cardio</p>
+                            <p>Complete 3 rounds of this circuit:</p>
+                            <ul>
+                                <li>Jumping jacks: 40 seconds</li>
+                                <li>Push-ups (modified if needed): 30 seconds</li>
+                                <li>Bodyweight squats: 40 seconds</li>
+                                <li>Mountain climbers: 30 seconds</li>
+                                <li>Glute bridges: 40 seconds</li>
+                                <li>Plank: 30 seconds</li>
+                                <li>Rest 60 seconds between rounds</li>
+                            </ul>
+                            <p>Cool down: 5 minutes light movement and stretching</p>
+                        </div>
+                        <div class="exercise-details gym-workout" style="display: none;">
+                            <p>Warm up: 5 minutes light cardio</p>
+                            <p>Complete 3 rounds of this circuit:</p>
+                            <ul>
+                                <li>Rowing machine sprint: 40 seconds</li>
+                                <li>Dumbbell push press: 30 seconds</li>
+                                <li>Kettlebell swings: 40 seconds</li>
+                                <li>Burpees: 30 seconds</li>
+                                <li>Medicine ball slams: 40 seconds</li>
+                                <li>Plank: 30 seconds</li>
+                                <li>Rest 60 seconds between rounds</li>
+                            </ul>
+                            <p>Cool down: 5 minutes light movement and stretching</p>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="exercise-checkbox" id="exercise-week12-day6">
+                            <label for="exercise-week12-day6">Completed</label>
+                        </div>
+                    </div>
+                    
+                    <div class="exercise-day">
+                        <h4>Day 7: Rest & Recovery</h4>
+                        <div class="exercise-details">
+                            <p>Complete rest or light activities:</p>
+                            <ul>
+                                <li>Gentle walking</li>
+                                <li>Light stretching</li>
+                                <li>Yoga</li>
+                                <li>Foam rolling</li>
+                            </ul>
+                            <p>Focus on quality sleep and hydration</p>
+                            <p>Reflect on your 12-week journey and progress!</p>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="exercise-checkbox" id="exercise-week12-day7">
+                            <label for="exercise-week12-day7">Completed</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="exercise-notes">
+                    <h3>Notes for Week 12</h3>
+                    <ul>
+                        <li>Final week focuses on integrating all movement patterns learned</li>
+                        <li>Combines strength, mobility, and cardio in efficient workouts</li>
+                        <li>Modify any exercise that causes knee pain</li>
+                        <li>All workouts are designed to be completed in 30 minutes or less</li>
+                        <li>Congratulations on completing the 12-week program!</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 365-Day Wellness Calendar</p>
+    </footer>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Theme toggle
+            const themeToggle = document.getElementById('theme-toggle');
+            
+            themeToggle.addEventListener('change', function() {
+                document.body.classList.toggle('dark-mode');
+                localStorage.setItem('darkMode', this.checked);
+            });
+            
+            // Check for saved theme preference
+            const darkMode = localStorage.getItem('darkMode') === 'true';
+            themeToggle.checked = darkMode;
+            if (darkMode) {
+                document.body.classList.add('dark-mode');
+            }
+            
+            // Location toggle
+            const locationToggle = document.getElementById('location-toggle');
+            const homeWorkouts = document.querySelectorAll('.home-workout');
+            const gymWorkouts = document.querySelectorAll('.gym-workout');
+            
+            locationToggle.addEventListener('change', function() {
+                const location = this.value;
+                localStorage.setItem('exerciseLocation', location);
+                
+                if (location === 'home') {
+                    homeWorkouts.forEach(workout => workout.style.display = 'block');
+                    gymWorkouts.forEach(workout => workout.style.display = 'none');
+                } else {
+                    homeWorkouts.forEach(workout => workout.style.display = 'none');
+                    gymWorkouts.forEach(workout => workout.style.display = 'block');
+                }
+            });
+            
+            // Check for saved location preference
+            const savedLocation = localStorage.getItem('exerciseLocation') || 'home';
+            locationToggle.value = savedLocation;
+            
+            if (savedLocation === 'home') {
+                homeWorkouts.forEach(workout => workout.style.display = 'block');
+                gymWorkouts.forEach(workout => workout.style.display = 'none');
+            } else {
+                homeWorkouts.forEach(workout => workout.style.display = 'none');
+                gymWorkouts.forEach(workout => workout.style.display = 'block');
+            }
+            
+            // Save checkbox states
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(checkbox => {
+                // Load saved state
+                const savedState = localStorage.getItem(checkbox.id);
+                if (savedState === 'true') {
+                    checkbox.checked = true;
+                }
+                
+                // Save state on change
+                checkbox.addEventListener('change', function() {
+                    localStorage.setItem(this.id, this.checked);
+                });
+            });
+        });
+    </script>
+</body>
+</html>

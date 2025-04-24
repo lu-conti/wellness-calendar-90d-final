@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>365-Day Wellness Calendar - Grocery Lists</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>365-Day Wellness Calendar</h1>
+        <div class="theme-toggle-container">
+            <label for="theme-toggle" class="theme-label">Dark Mode</label>
+            <input type="checkbox" id="theme-toggle" class="theme-toggle">
+        </div>
+    </header>
+    
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Calendar</a></li>
+            <li><a href="exercise.html" class="nav-link">Exercise Program</a></li>
+            <li><a href="grocery.html" class="nav-link active">Grocery Lists</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <!-- Grocery List View -->
+        <section id="grocery-view" class="view-section active">
+            <div class="grocery-header">
+                <h2>Weekly Grocery Lists</h2>
+                <p>Each list is organized by section to make shopping easier.</p>
+            </div>
+            
+            <div class="week-selector">
+                <select id="grocery-week-selector">
+                    <option value="1">Week 1: Mediterranean (Spring)</option>
+                    <option value="2">Week 2: Mediterranean (Spring)</option>
+                    <option value="3">Week 3: Okinawan (Spring)</option>
+                    <option value="4">Week 4: Okinawan (Spring)</option>
+                </select>
+            </div>
+            
+            <div class="grocery-content">
+                <div id="grocery-week-display">
+                    <h3>Week 1: Mediterranean (Spring)</h3>
+                    
+                    <div class="grocery-section">
+                        <h3>Produce</h3>
+                        <ul class="grocery-list" id="produce-list">
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-berries">
+                                <label for="grocery-berries" class="grocery-name">Fresh berries (strawberries, blueberries)</label>
+                                <span class="grocery-quantity">2 containers</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-apples">
+                                <label for="grocery-apples" class="grocery-name">Apples</label>
+                                <span class="grocery-quantity">6</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-oranges">
+                                <label for="grocery-oranges" class="grocery-name">Oranges</label>
+                                <span class="grocery-quantity">4</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-lemons">
+                                <label for="grocery-lemons" class="grocery-name">Lemons</label>
+                                <span class="grocery-quantity">3</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-cucumber">
+                                <label for="grocery-cucumber" class="grocery-name">Cucumber</label>
+                                <span class="grocery-quantity">2</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-tomatoes">
+                                <label for="grocery-tomatoes" class="grocery-name">Tomatoes</label>
+                                <span class="grocery-quantity">6</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-bell-peppers">
+                                <label for="grocery-bell-peppers" class="grocery-name">Bell peppers (red, yellow)</label>
+                                <span class="grocery-quantity">3</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-zucchini">
+                                <label for="grocery-zucchini" class="grocery-name">Zucchini</label>
+                                <span class="grocery-quantity">2</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-eggplant">
+                                <label for="grocery-eggplant" class="grocery-name">Eggplant</label>
+                                <span class="grocery-quantity">1</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-carrots">
+                                <label for="grocery-carrots" class="grocery-name">Carrots</label>
+                                <span class="grocery-quantity">1 bunch</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-spinach">
+                                <label for="grocery-spinach" class="grocery-name">Spinach</label>
+                                <span class="grocery-quantity">1 large bag</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-salad-greens">
+                                <label for="grocery-salad-greens" class="grocery-name">Mixed salad greens</label>
+                                <span class="grocery-quantity">1 large bag</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-herbs">
+                                <label for="grocery-herbs" class="grocery-name">Fresh herbs (basil, parsley, mint)</label>
+                                <span class="grocery-quantity">1 bunch each</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-garlic">
+                                <label for="grocery-garlic" class="grocery-name">Garlic</label>
+                                <span class="grocery-quantity">1 head</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-onions">
+                                <label for="grocery-onions" class="grocery-name">Onions</label>
+                                <span class="grocery-quantity">3</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-asparagus">
+                                <label for="grocery-asparagus" class="grocery-name">Spring asparagus</label>
+                                <span class="grocery-quantity">1 bunch</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-peas">
+                                <label for="grocery-peas" class="grocery-name">Spring peas</label>
+                                <span class="grocery-quantity">1 cup</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="grocery-section">
+                        <h3>Protein</h3>
+                        <ul class="grocery-list" id="protein-list">
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-greek-yogurt">
+                                <label for="grocery-greek-yogurt" class="grocery-name">Greek yogurt</label>
+                                <span class="grocery-quantity">32 oz container</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-feta">
+                                <label for="grocery-feta" class="grocery-name">Feta cheese</label>
+                                <span class="grocery-quantity">8 oz</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-fish">
+                                <label for="grocery-fish" class="grocery-name">Fresh fish (salmon, cod, or sea bass)</label>
+                                <span class="grocery-quantity">1 lb</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-chicken">
+                                <label for="grocery-chicken" class="grocery-name">Chicken breast</label>
+                                <span class="grocery-quantity">1 lb</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-eggs">
+                                <label for="grocery-eggs" class="grocery-name">Eggs</label>
+                                <span class="grocery-quantity">1 dozen</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-chickpeas">
+                                <label for="grocery-chickpeas" class="grocery-name">Chickpeas</label>
+                                <span class="grocery-quantity">2 cans</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-lentils">
+                                <label for="grocery-lentils" class="grocery-name">Lentils</label>
+                                <span class="grocery-quantity">1 bag</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="grocery-section">
+                        <h3>Grains & Pantry</h3>
+                        <ul class="grocery-list" id="pantry-list">
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-bread">
+                                <label for="grocery-bread" class="grocery-name">Whole grain bread</label>
+                                <span class="grocery-quantity">1 loaf</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-quinoa">
+                                <label for="grocery-quinoa" class="grocery-name">Quinoa</label>
+                                <span class="grocery-quantity">1 bag</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-oats">
+                                <label for="grocery-oats" class="grocery-name">Rolled oats</label>
+                                <span class="grocery-quantity">1 container</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-chia">
+                                <label for="grocery-chia" class="grocery-name">Chia seeds</label>
+                                <span class="grocery-quantity">1 small bag</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-walnuts">
+                                <label for="grocery-walnuts" class="grocery-name">Walnuts</label>
+                                <span class="grocery-quantity">1 bag</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-almonds">
+                                <label for="grocery-almonds" class="grocery-name">Almonds</label>
+                                <span class="grocery-quantity">1 bag</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-olive-oil">
+                                <label for="grocery-olive-oil" class="grocery-name">Olive oil (extra virgin)</label>
+                                <span class="grocery-quantity">1 bottle</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-honey">
+                                <label for="grocery-honey" class="grocery-name">Honey</label>
+                                <span class="grocery-quantity">1 jar</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-hummus">
+                                <label for="grocery-hummus" class="grocery-name">Hummus</label>
+                                <span class="grocery-quantity">1 container</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-almond-butter">
+                                <label for="grocery-almond-butter" class="grocery-name">Almond butter</label>
+                                <span class="grocery-quantity">1 jar</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-olives">
+                                <label for="grocery-olives" class="grocery-name">Kalamata olives</label>
+                                <span class="grocery-quantity">1 jar</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-dried-herbs">
+                                <label for="grocery-dried-herbs" class="grocery-name">Dried herbs (oregano, thyme, rosemary)</label>
+                                <span class="grocery-quantity">as needed</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-pepper">
+                                <label for="grocery-pepper" class="grocery-name">Black pepper</label>
+                                <span class="grocery-quantity">as needed</span>
+                            </li>
+                            <li class="grocery-item">
+                                <input type="checkbox" class="grocery-checkbox" id="grocery-salt">
+                                <label for="grocery-salt" class="grocery-name">Sea salt</label>
+                                <span class="grocery-quantity">as needed</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 365-Day Wellness Calendar</p>
+    </footer>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Theme toggle
+            const themeToggle = document.getElementById('theme-toggle');
+            
+            themeToggle.addEventListener('change', function() {
+                document.body.classList.toggle('dark-mode');
+                localStorage.setItem('darkMode', this.checked);
+            });
+            
+            // Check for saved theme preference
+            const darkMode = localStorage.getItem('darkMode') === 'true';
+            themeToggle.checked = darkMode;
+            if (darkMode) {
+                document.body.classList.add('dark-mode');
+            }
+            
+            // Save checkbox states
+            const checkboxes = document.querySelectorAll('input[type="checkbox"].grocery-checkbox');
+            checkboxes.forEach(checkbox => {
+                // Load saved state
+                const savedState = localStorage.getItem(checkbox.id);
+                if (savedState === 'true') {
+                    checkbox.checked = true;
+                }
+                
+                // Save state on change
+                checkbox.addEventListener('change', function() {
+                    localStorage.setItem(this.id, this.checked);
+                });
+            });
+        });
+    </script>
+    <script src="js/grocery.js"></script>
+</body>
+</html>

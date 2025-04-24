@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>365-Day Wellness Calendar - Exercise Week 5</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>365-Day Wellness Calendar</h1>
+        <div class="theme-toggle-container">
+            <label for="theme-toggle" class="theme-label">Dark Mode</label>
+            <input type="checkbox" id="theme-toggle" class="theme-toggle">
+        </div>
+    </header>
+    
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Calendar</a></li>
+            <li><a href="exercise.html" class="nav-link active">Exercise Program</a></li>
+            <li><a href="grocery.html" class="nav-link">Grocery Lists</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <!-- Exercise Program View -->
+        <section id="exercise-view" class="view-section active">
+            <div class="exercise-header">
+                <h2>12-Week Exercise Program</h2>
+                <div class="location-toggle">
+                    <label for="location-toggle">Exercise Location:</label>
+                    <select id="location-toggle">
+                        <option value="home">Home</option>
+                        <option value="gym">Gym</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="week-navigation">
+                <a href="exercise-week1.html" class="nav-button">Week 1</a>
+                <a href="exercise-week2.html" class="nav-button">Week 2</a>
+                <a href="exercise-week3.html" class="nav-button">Week 3</a>
+                <a href="exercise-week4.html" class="nav-button">Week 4</a>
+                <a href="exercise-week5.html" class="nav-button active">Week 5</a>
+                <a href="exercise-week6.html" class="nav-button">Week 6</a>
+                <a href="exercise-week7.html" class="nav-button">Week 7</a>
+                <a href="exercise-week8.html" class="nav-button">Week 8</a>
+                <a href="exercise-week9.html" class="nav-button">Week 9</a>
+                <a href="exercise-week10.html" class="nav-button">Week 10</a>
+                <a href="exercise-week11.html" class="nav-button">Week 11</a>
+                <a href="exercise-week12.html" class="nav-button">Week 12</a>
+            </div>
+            
+            <div class="exercise-content">
+                <div class="week-info">
+                    <h3>Current Week: Week 5</h3>
+                    <p class="week-focus">Focus: Strength Building</p>
+                </div>
+                
+                <div class="exercise-days">
+                    <div class="exercise-day">
+                        <h4>Day 1: Zone 2 Cardio (25-30 minutes)</h4>
+                        <div class="exercise-details home-workout">
+                            <p>Choose one:</p>
+                            <ul>
+                                <li>Brisk walking with moderate hills</li>
+                                <li>Jogging with short sprints (5-10 seconds)</li>
+                                <li>Cycling (moderate pace with hills)</li>
+                                <li>Swimming (moderate pace with technique drills)</li>
+                                <li>Rowing machine (moderate resistance)</li>
+                            </ul>
+                            <p>Intensity: Moderate effort, breathing should be slightly labored</p>
+                            <p>Duration: 25-30 minutes</p>
+                        </div>
+                        <div class="exercise-details gym-workout" style="display: none;">
+                            <p>Choose one:</p>
+                            <ul>
+                                <li>Treadmill (incline walking or light jogging)</li>
+                                <li>Elliptical trainer (moderate resistance)</li>
+                                <li>Stationary bike (interval program, moderate level)</li>
+                                <li>Rowing machine (moderate resistance)</li>
+                                <li>Stair climber (moderate pace)</li>
+                            </ul>
+                            <p>Intensity: Moderate effort, breathing should be slightly labored</p>
+                            <p>Duration: 25-30 minutes</p>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="exercise-checkbox" id="exercise-week5-day1">
+                            <label for="exercise-week5-day1">Completed</label>
+                        </div>
+                    </div>
+                    
+                    <div class="exercise-day">
+                        <h4>Day 2: Strength Training - Upper Body (25-30 minutes)</h4>
+                        <div class="exercise-details home-workout">
+                            <p>Complete 3 sets of each exercise:</p>
+                            <ul>
+                                <li>Push-ups (standard or modified): 12-15 reps</li>
+                                <li>Resistance band rows: 15 reps</li>
+                                <li>Shoulder press with resistance bands: 12-15 reps</li>
+                                <li>Tricep dips on chair: 12-15 reps</li>
+                                <li>Bicep curls with resistance bands: 15 reps each arm</li>
+                                <li>Plank: 60-75 seconds</li>
+                            </ul>
+                            <p>Rest 45 seconds between sets</p>
+                        </div>
+                        <div class="exercise-details gym-workout" style="display: none;">
+                            <p>Complete 3 sets of each exercise:</p>
+                            <ul>
+                                <li>Chest press (machine or dumbbell): 12-15 reps</li>
+                                <li>Seated rows: 15 reps</li>
+                                <li>Shoulder press (machine or dumbbell): 12-15 reps</li>
+                                <li>Tricep pushdowns: 15 reps</li>
+                                <li>Bicep curls: 15 reps each arm</li>
+                                <li>Cable rotations: 15 each side</li>
+                            </ul>
+                            <p>Rest 45 seconds between sets</p>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="exercise-checkbox" id="exercise-week5-day2">
+                            <label for="exercise-week5-day2">Completed</label>
+                        </div>
+                    </div>
+                    
+                    <div class="exercise-day">
+                        <h4>Day 3: Mobility & Animal Flow (25-30 minutes)</h4>
+                        <div class="exercise-details home-workout">
+                            <p>Mobility warm-up (5 minutes):</p>
+                            <ul>
+                                <li>Cat-cow stretch: 15 repetitions</li>
+                                <li>World's greatest stretch: 8 each side</li>
+                                <li>Hip circles: 15 each direction</li>
+                                <li>Shoulder circles: 15 each direction</li>
+                            </ul>
+                            <p>Animal Flow Circuit (repeat 3 times):</p>
+                            <ul>
+                                <li>Beast position hold: 30 seconds</li>
+                                <li>Beast to crab transition: 10 repetitions</li>
+                                <li>Side kickthrough: 10 each side</li>
+                                <li>Ape: 10 repetitions</li>
+                                <li>Forward/backward beast crawl: 40 seconds</li>
+                                <li>Rest 45 seconds between circuits</li>
+                            </ul>
+                            <p>Cool down with gentle stretching (5 minutes)</p>
+                        </div>
+                        <div class="exercise-details gym-workout" style="display: none;">
+                            <p>Mobility warm-up (5 minutes):</p>
+                            <ul>
+                                <li>Cat-cow stretch: 15 repetitions</li>
+                                <li>World's greatest stretch: 8 each side</li>
+                                <li>Hip circles: 15 each direction</li>
+                                <li>Shoulder circles: 15 each direction</li>
+                            </ul>
+                            <p>Animal Flow Circuit (repeat 3 times):</p>
+                            <ul>
+                                <li>Beast position hold: 30 seconds</li>
+                                <li>Beast to crab transition: 10 repetitions</li>
+                                <li>Side kickthrough: 10 each side</li>
+                                <li>Ape: 10 repetitions</li>
+                                <li>Forward/backward beast crawl: 40 seconds</li>
+                                <li>Rest 45 seconds between circuits</li>
+                            </ul>
+                            <p>Cool down with gentle stretching (5 minutes)</p>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="exercise-checkbox" id="exercise-week5-day3">
+                            <label for="exercise-week5-day3">Completed</label>
+                        </div>
+                    </div>
+                    
+                    <div class="exercise-day">
+                        <h4>Day 4: Zone 2 Cardio (25-30 minutes)</h4>
+                        <div class="exercise-details home-workout">
+                            <p>Choose one (different from Day 1):</p>
+                            <ul>
+                                <li>Brisk walking with moderate hills</li>
+                                <li>Jogging with short sprints (5-10 seconds)</li>
+                                <li>Cycling (moderate pace with hills)</li>
+                                <li>Swimming (moderate pace with technique drills)</li>
+                                <li>Rowing machine (moderate resistance)</li>
+                            </ul>
+                            <p>Intensity: Moderate effort, breathing should be slightly labored</p>
+                            <p>Duration: 25-30 minutes</p>
+                        </div>
+                        <div class="exercise-details gym-workout" style="display: none;">
+                            <p>Choose one (different from Day 1):</p>
+                            <ul>
+                                <li>Treadmill (incline walking or light jogging)</li>
+                                <li>Elliptical trainer (moderate resistance)</li>
+                                <li>Stationary bike (interval program, moderate level)</li>
+                                <li>Rowing machine (moderate resistance)</li>
+                                <li>Stair climber (moderate pace)</li>
+                            </ul>
+                            <p>Intensity: Moderate effort, breathing should be slightly labored</p>
+                            <p>Duration: 25-30 minutes</p>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="exercise-checkbox" id="exercise-week5-day4">
+                            <label for="exercise-week5-day4">Completed</label>
+                        </div>
+                    </div>
+                    
+                    <div class="exercise-day">
+                        <h4>Day 5: Strength Training - Lower Body (Knee-Friendly) (25-30 minutes)</h4>
+                        <div class="exercise-details home-workout">
+                            <p>Complete 3 sets of each exercise:</p>
+                            <ul>
+                                <li>Bodyweight box squats (using chair): 15 reps</li>
+                                <li>Glute bridges with 3-second hold at top: 15 reps</li>
+                                <li>Standing calf raises (single leg): 15 reps each</li>
+                                <li>Side-lying leg raises with ankle weight (if available): 15 reps each side</li>
+                                <li>Step-ups (low height): 15 each leg</li>
+                                <li>Bird-dog with 3-second hold: 12 each side</li>
+                            </ul>
+                            <p>Rest 45 seconds between sets</p>
+                            <p>Note: Focus on proper form and avoid deep knee flexion</p>
+                        </div>
+                        <div class="exercise-details gym-workout" style="display: none;">
+                            <p>Complete 3 sets of each exercise:</p>
+                            <ul>
+                                <li>Leg press (moderate weight, partial range): 15 reps</li>
+                                <li>Hip abduction machine: 15-20 reps</li>
+                                <li>Hip extension machine: 15-20 reps</li>
+                                <li>Seated calf raises: 20 reps</li>
+                                <li>Stability ball hamstring curls: 15 reps</li>
+                                <li>Cable pull-throughs: 15 reps</li>
+                            </ul>
+                            <p>Rest 45 seconds between sets</p>
+                            <p>Note: Focus on proper form and avoid deep knee flexion</p>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="exercise-checkbox" id="exercise-week5-day5">
+                            <label for="exercise-week5-day5">Completed</label>
+                        </div>
+                    </div>
+                    
+                    <div class="exercise-day">
+                        <h4>Day 6: HIIT or Sprints (20-25 minutes)</h4>
+                        <div class="exercise-details home-workout">
+                            <p>Warm up: 5 minutes light cardio</p>
+                            <p>Complete 8-10 rounds:</p>
+                            <ul>
+                                <li>30 seconds high intensity (jumping jacks, high knees, mountain climbers, or burpees)</li>
+                                <li>60 seconds recovery (walking or light movement)</li>
+                            </ul>
+                            <p>Cool down: 5 minutes light movement and stretching</p>
+                        </div>
+                        <div class="exercise-details gym-workout" style="display: none;">
+                            <p>Warm up: 5 minutes light cardio</p>
+                            <p>Complete 8-10 rounds on cardio machine of choice:</p>
+                            <ul>
+                                <li>30 seconds high intensity</li>
+                                <li>60 seconds recovery</li>
+                            </ul>
+                            <p>Cool down: 5 minutes light movement and stretching</p>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="exercise-checkbox" id="exercise-week5-day6">
+                            <label for="exercise-week5-day6">Completed</label>
+                        </div>
+                    </div>
+                    
+                    <div class="exercise-day">
+                        <h4>Day 7: Rest & Recovery</h4>
+                        <div class="exercise-details">
+                            <p>Complete rest or light activities:</p>
+                            <ul>
+                                <li>Gentle walking</li>
+                                <li>Light stretching</li>
+                                <li>Yoga</li>
+                                <li>Foam rolling</li>
+                            </ul>
+                            <p>Focus on quality sleep and hydration</p>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="exercise-checkbox" id="exercise-week5-day7">
+                            <label for="exercise-week5-day7">Completed</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="exercise-notes">
+                    <h3>Notes for Week 5</h3>
+                    <ul>
+                        <li>After the recovery week, we're back to progressive overload</li>
+                        <li>Focus on proper form while increasing intensity</li>
+                        <li>Modify any exercise that causes knee pain</li>
+                        <li>All workouts are designed to be completed in 30 minutes or less</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 365-Day Wellness Calendar</p>
+    </footer>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Theme toggle
+            const themeToggle = document.getElementById('theme-toggle');
+            
+            themeToggle.addEventListener('change', function() {
+                document.body.classList.toggle('dark-mode');
+                localStorage.setItem('darkMode', this.checked);
+            });
+            
+            // Check for saved theme preference
+            const darkMode = localStorage.getItem('darkMode') === 'true';
+            themeToggle.checked = darkMode;
+            if (darkMode) {
+                document.body.classList.add('dark-mode');
+            }
+            
+            // Location toggle
+            const locationToggle = document.getElementById('location-toggle');
+            const homeWorkouts = document.querySelectorAll('.home-workout');
+            const gymWorkouts = document.querySelectorAll('.gym-workout');
+            
+            locationToggle.addEventListener('change', function() {
+                const location = this.value;
+                localStorage.setItem('exerciseLocation', location);
+                
+                if (location === 'home') {
+                    homeWorkouts.forEach(workout => workout.style.display = 'block');
+                    gymWorkouts.forEach(workout => workout.style.display = 'none');
+                } else {
+                    homeWorkouts.forEach(workout => workout.style.display = 'none');
+                    gymWorkouts.forEach(workout => workout.style.display = 'block');
+                }
+            });
+            
+            // Check for saved location preference
+            const savedLocation = localStorage.getItem('exerciseLocation') || 'home';
+            locationToggle.value = savedLocation;
+            
+            if (savedLocation === 'home') {
+                homeWorkouts.forEach(workout => workout.style.display = 'block');
+                gymWorkouts.forEach(workout => workout.style.display = 'none');
+            } else {
+                homeWorkouts.forEach(workout => workout.style.display = 'none');
+                gymWorkouts.forEach(workout => workout.style.display = 'block');
+            }
+            
+            // Save checkbox states
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(checkbox => {
+                // Load saved state
+                const savedState = localStorage.getItem(checkbox.id);
+                if (savedState === 'true') {
+                    checkbox.checked = true;
+                }
+                
+                // Save state on change
+                checkbox.addEventListener('change', function() {
+                    localStorage.setItem(this.id, this.checked);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
