@@ -1,0 +1,658 @@
+[
+  {
+    "week": 1,
+    "name": "Week 1: Mediterranean (Spring)",
+    "sections": {
+      "Produce": [
+        {"name": "Fresh berries (strawberries, blueberries)", "quantity": "2 containers"},
+        {"name": "Apples", "quantity": "6"},
+        {"name": "Oranges", "quantity": "4"},
+        {"name": "Lemons", "quantity": "3"},
+        {"name": "Cucumber", "quantity": "2"},
+        {"name": "Tomatoes", "quantity": "6"},
+        {"name": "Bell peppers (red, yellow)", "quantity": "3"},
+        {"name": "Zucchini", "quantity": "2"},
+        {"name": "Eggplant", "quantity": "1"},
+        {"name": "Carrots", "quantity": "1 bunch"},
+        {"name": "Spinach", "quantity": "1 large bag"},
+        {"name": "Mixed salad greens", "quantity": "1 large bag"},
+        {"name": "Fresh herbs (basil, parsley, mint)", "quantity": "1 bunch each"},
+        {"name": "Garlic", "quantity": "1 head"},
+        {"name": "Onions", "quantity": "3"},
+        {"name": "Spring asparagus", "quantity": "1 bunch"},
+        {"name": "Spring peas", "quantity": "1 cup"}
+      ],
+      "Protein": [
+        {"name": "Greek yogurt", "quantity": "32 oz container"},
+        {"name": "Feta cheese", "quantity": "8 oz"},
+        {"name": "Fresh fish (salmon, cod, or sea bass)", "quantity": "1 lb"},
+        {"name": "Chicken breast", "quantity": "1 lb"},
+        {"name": "Eggs", "quantity": "1 dozen"},
+        {"name": "Chickpeas", "quantity": "2 cans"},
+        {"name": "Lentils", "quantity": "1 bag"}
+      ],
+      "Grains & Pantry": [
+        {"name": "Whole grain bread", "quantity": "1 loaf"},
+        {"name": "Quinoa", "quantity": "1 bag"},
+        {"name": "Rolled oats", "quantity": "1 container"},
+        {"name": "Chia seeds", "quantity": "1 small bag"},
+        {"name": "Walnuts", "quantity": "1 bag"},
+        {"name": "Almonds", "quantity": "1 bag"},
+        {"name": "Olive oil (extra virgin)", "quantity": "1 bottle"},
+        {"name": "Honey", "quantity": "1 jar"},
+        {"name": "Hummus", "quantity": "1 container"},
+        {"name": "Almond butter", "quantity": "1 jar"},
+        {"name": "Kalamata olives", "quantity": "1 jar"},
+        {"name": "Dried herbs (oregano, thyme, rosemary)", "quantity": "as needed"}
+      ]
+    }
+  },
+  {
+    "week": 2,
+    "name": "Week 2: Mediterranean (Spring)",
+    "sections": {
+      "Produce": [
+        {"name": "Fresh berries (strawberries, blueberries)", "quantity": "2 containers"},
+        {"name": "Apples", "quantity": "6"},
+        {"name": "Oranges", "quantity": "4"},
+        {"name": "Lemons", "quantity": "3"},
+        {"name": "Cucumber", "quantity": "2"},
+        {"name": "Tomatoes", "quantity": "6"},
+        {"name": "Bell peppers (red, yellow)", "quantity": "3"},
+        {"name": "Zucchini", "quantity": "2"},
+        {"name": "Eggplant", "quantity": "1"},
+        {"name": "Artichokes", "quantity": "2"},
+        {"name": "Fennel", "quantity": "1 bulb"},
+        {"name": "Spinach", "quantity": "1 large bag"},
+        {"name": "Arugula", "quantity": "1 bag"},
+        {"name": "Fresh herbs (basil, parsley, dill)", "quantity": "1 bunch each"},
+        {"name": "Garlic", "quantity": "1 head"},
+        {"name": "Red onions", "quantity": "2"},
+        {"name": "Avocados", "quantity": "2"}
+      ],
+      "Protein": [
+        {"name": "Greek yogurt", "quantity": "32 oz container"},
+        {"name": "Feta cheese", "quantity": "8 oz"},
+        {"name": "Fresh fish (sea bream or trout)", "quantity": "1 lb"},
+        {"name": "Chicken thighs", "quantity": "1 lb"},
+        {"name": "Eggs", "quantity": "1 dozen"},
+        {"name": "White beans", "quantity": "2 cans"},
+        {"name": "Tofu", "quantity": "1 package"}
+      ],
+      "Grains & Pantry": [
+        {"name": "Whole grain pita bread", "quantity": "1 package"},
+        {"name": "Farro", "quantity": "1 bag"},
+        {"name": "Bulgur wheat", "quantity": "1 bag"},
+        {"name": "Flaxseeds", "quantity": "1 small bag"},
+        {"name": "Pistachios", "quantity": "1 bag"},
+        {"name": "Pine nuts", "quantity": "1 small bag"},
+        {"name": "Olive oil (extra virgin)", "quantity": "1 bottle"},
+        {"name": "Honey", "quantity": "1 jar"},
+        {"name": "Tahini", "quantity": "1 jar"},
+        {"name": "Sun-dried tomatoes", "quantity": "1 jar"},
+        {"name": "Green olives", "quantity": "1 jar"},
+        {"name": "Capers", "quantity": "1 small jar"}
+      ]
+    }
+  },
+  {
+    "week": 3,
+    "name": "Week 3: Okinawan (Spring)",
+    "sections": {
+      "Produce": [
+        {"name": "Sweet potatoes", "quantity": "3"},
+        {"name": "Cabbage (green and purple)", "quantity": "1 each"},
+        {"name": "Bok choy", "quantity": "2 bunches"},
+        {"name": "Shiitake mushrooms", "quantity": "8 oz"},
+        {"name": "Daikon radish", "quantity": "1"},
+        {"name": "Carrots", "quantity": "1 bunch"},
+        {"name": "Green onions", "quantity": "1 bunch"},
+        {"name": "Fresh ginger", "quantity": "1 small piece"},
+        {"name": "Garlic", "quantity": "1 head"},
+        {"name": "Seaweed (wakame, kombu)", "quantity": "1 package each"},
+        {"name": "Bitter melon", "quantity": "1"},
+        {"name": "Bean sprouts", "quantity": "1 package"},
+        {"name": "Bamboo shoots", "quantity": "1 can"},
+        {"name": "Lotus root", "quantity": "1 small piece"},
+        {"name": "Cucumber", "quantity": "2"},
+        {"name": "Lemons", "quantity": "2"}
+      ],
+      "Protein": [
+        {"name": "Tofu (firm and silken)", "quantity": "1 package each"},
+        {"name": "Fresh fish (mackerel or salmon)", "quantity": "1 lb"},
+        {"name": "Eggs", "quantity": "1 dozen"},
+        {"name": "Edamame", "quantity": "1 bag (frozen)"},
+        {"name": "Tempeh", "quantity": "1 package"},
+        {"name": "Natto", "quantity": "1 package (if available)"}
+      ],
+      "Grains & Pantry": [
+        {"name": "Brown rice", "quantity": "1 bag"},
+        {"name": "Soba noodles", "quantity": "1 package"},
+        {"name": "Rice vinegar", "quantity": "1 bottle"},
+        {"name": "Sesame oil", "quantity": "1 bottle"},
+        {"name": "Low-sodium soy sauce", "quantity": "1 bottle"},
+        {"name": "Miso paste", "quantity": "1 container"},
+        {"name": "Sesame seeds", "quantity": "1 small bag"},
+        {"name": "Bonito flakes", "quantity": "1 package"},
+        {"name": "Dried shiitake mushrooms", "quantity": "1 small bag"},
+        {"name": "Mirin", "quantity": "1 bottle"},
+        {"name": "Turmeric powder", "quantity": "1 small container"},
+        {"name": "Green tea", "quantity": "1 box"}
+      ]
+    }
+  },
+  {
+    "week": 4,
+    "name": "Week 4: Okinawan (Spring)",
+    "sections": {
+      "Produce": [
+        {"name": "Purple sweet potatoes", "quantity": "3 (if available)"},
+        {"name": "Napa cabbage", "quantity": "1"},
+        {"name": "Baby bok choy", "quantity": "2 bunches"},
+        {"name": "Enoki mushrooms", "quantity": "2 packages"},
+        {"name": "Daikon radish", "quantity": "1"},
+        {"name": "Carrots", "quantity": "1 bunch"},
+        {"name": "Green onions", "quantity": "1 bunch"},
+        {"name": "Fresh ginger", "quantity": "1 small piece"},
+        {"name": "Garlic", "quantity": "1 head"},
+        {"name": "Seaweed (nori sheets)", "quantity": "1 package"},
+        {"name": "Kabocha squash", "quantity": "1 small"},
+        {"name": "Bean sprouts", "quantity": "1 package"},
+        {"name": "Snow peas", "quantity": "8 oz"},
+        {"name": "Cucumber", "quantity": "2"},
+        {"name": "Lemons", "quantity": "2"}
+      ],
+      "Protein": [
+        {"name": "Tofu (extra firm)", "quantity": "1 package"},
+        {"name": "Fresh fish (tuna or sea bream)", "quantity": "1 lb"},
+        {"name": "Eggs", "quantity": "1 dozen"},
+        {"name": "Edamame", "quantity": "1 bag (frozen)"},
+        {"name": "Azuki beans", "quantity": "1 small bag"}
+      ],
+      "Grains & Pantry": [
+        {"name": "Brown rice", "quantity": "1 bag"},
+        {"name": "Shirataki noodles", "quantity": "2 packages"},
+        {"name": "Rice vinegar", "quantity": "1 bottle"},
+        {"name": "Sesame oil", "quantity": "1 bottle"},
+        {"name": "Low-sodium soy sauce", "quantity": "1 bottle"},
+        {"name": "Miso paste", "quantity": "1 container"},
+        {"name": "Black sesame seeds", "quantity": "1 small bag"},
+        {"name": "Nori sheets", "quantity": "1 package"},
+        {"name": "Dried kelp", "quantity": "1 small bag"},
+        {"name": "Mirin", "quantity": "1 bottle"},
+        {"name": "Wasabi paste", "quantity": "1 small tube"},
+        {"name": "Matcha green tea", "quantity": "1 small container"}
+      ]
+    }
+  },
+  {
+    "week": 5,
+    "name": "Week 5: Latin American (Nicoya-style)",
+    "sections": {
+      "Produce": [
+        {"name": "Plantains (green and ripe)", "quantity": "4"},
+        {"name": "Avocados", "quantity": "3"},
+        {"name": "Tomatoes", "quantity": "6"},
+        {"name": "Bell peppers (red, green)", "quantity": "4"},
+        {"name": "Onions", "quantity": "3"},
+        {"name": "Garlic", "quantity": "1 head"},
+        {"name": "Cilantro", "quantity": "2 bunches"},
+        {"name": "Limes", "quantity": "6"},
+        {"name": "Oranges", "quantity": "4"},
+        {"name": "Papaya", "quantity": "1"},
+        {"name": "Pineapple", "quantity": "1 small"},
+        {"name": "Chayote squash", "quantity": "2"},
+        {"name": "Yuca (cassava)", "quantity": "1 medium"},
+        {"name": "Sweet potatoes", "quantity": "2"},
+        {"name": "Corn", "quantity": "4 ears"},
+        {"name": "Jalapeño peppers", "quantity": "3"}
+      ],
+      "Protein": [
+        {"name": "Black beans", "quantity": "2 cans or 1 lb dry"},
+        {"name": "Red beans", "quantity": "2 cans or 1 lb dry"},
+        {"name": "Eggs", "quantity": "1 dozen"},
+        {"name": "White fish (tilapia or snapper)", "quantity": "1 lb"},
+        {"name": "Chicken breast", "quantity": "1 lb"},
+        {"name": "Queso fresco", "quantity": "8 oz"},
+        {"name": "Greek yogurt", "quantity": "32 oz container"}
+      ],
+      "Grains & Pantry": [
+        {"name": "Brown rice", "quantity": "1 bag"},
+        {"name": "Corn tortillas", "quantity": "1 package"},
+        {"name": "Masa harina", "quantity": "1 bag"},
+        {"name": "Quinoa", "quantity": "1 bag"},
+        {"name": "Pumpkin seeds", "quantity": "1 small bag"},
+        {"name": "Sunflower seeds", "quantity": "1 small bag"},
+        {"name": "Olive oil", "quantity": "1 bottle"},
+        {"name": "Coconut oil", "quantity": "1 jar"},
+        {"name": "Honey", "quantity": "1 jar"},
+        {"name": "Cinnamon", "quantity": "1 small container"},
+        {"name": "Cumin", "quantity": "1 small container"},
+        {"name": "Dried oregano", "quantity": "1 small container"}
+      ]
+    }
+  },
+  {
+    "week": 6,
+    "name": "Week 6: Latin American (Nicoya-style)",
+    "sections": {
+      "Produce": [
+        {"name": "Plantains (green and ripe)", "quantity": "4"},
+        {"name": "Avocados", "quantity": "3"},
+        {"name": "Tomatillos", "quantity": "8"},
+        {"name": "Bell peppers (yellow, orange)", "quantity": "4"},
+        {"name": "Red onions", "quantity": "3"},
+        {"name": "Garlic", "quantity": "1 head"},
+        {"name": "Cilantro", "quantity": "2 bunches"},
+        {"name": "Limes", "quantity": "6"},
+        {"name": "Mangoes", "quantity": "2"},
+        {"name": "Guava", "quantity": "4 (if available)"},
+        {"name": "Pineapple", "quantity": "1 small"},
+        {"name": "Jicama", "quantity": "1 medium"},
+        {"name": "Sweet potatoes", "quantity": "2"},
+        {"name": "Corn", "quantity": "4 ears"},
+        {"name": "Poblano peppers", "quantity": "3"},
+        {"name": "Zucchini", "quantity": "2"}
+      ],
+      "Protein": [
+        {"name": "Black beans", "quantity": "2 cans or 1 lb dry"},
+        {"name": "Pinto beans", "quantity": "2 cans or 1 lb dry"},
+        {"name": "Eggs", "quantity": "1 dozen"},
+        {"name": "Shrimp", "quantity": "1 lb"},
+        {"name": "Chicken thighs", "quantity": "1 lb"},
+        {"name": "Cotija cheese", "quantity": "8 oz"},
+        {"name": "Greek yogurt", "quantity": "32 oz container"}
+      ],
+      "Grains & Pantry": [
+        {"name": "Brown rice", "quantity": "1 bag"},
+        {"name": "Corn tortillas", "quantity": "1 package"},
+        {"name": "Amaranth", "quantity": "1 small bag"},
+        {"name": "Quinoa", "quantity": "1 bag"},
+        {"name": "Chia seeds", "quantity": "1 small bag"},
+        {"name": "Pumpkin seeds", "quantity": "1 small bag"},
+        {"name": "Olive oil", "quantity": "1 bottle"},
+        {"name": "Coconut oil", "quantity": "1 jar"},
+        {"name": "Agave nectar", "quantity": "1 bottle"},
+        {"name": "Vanilla extract", "quantity": "1 small bottle"},
+        {"name": "Chili powder", "quantity": "1 small container"},
+        {"name": "Paprika", "quantity": "1 small container"}
+      ]
+    }
+  },
+  {
+    "week": 7,
+    "name": "Week 7: West African",
+    "sections": {
+      "Produce": [
+        {"name": "Sweet potatoes", "quantity": "3"},
+        {"name": "Plantains", "quantity": "4"},
+        {"name": "Cassava (yuca)", "quantity": "1 medium"},
+        {"name": "Okra", "quantity": "1 lb"},
+        {"name": "Tomatoes", "quantity": "6"},
+        {"name": "Bell peppers (red, green)", "quantity": "4"},
+        {"name": "Scotch bonnet peppers", "quantity": "3 (optional)"},
+        {"name": "Onions", "quantity": "4"},
+        {"name": "Garlic", "quantity": "1 head"},
+        {"name": "Ginger", "quantity": "1 large piece"},
+        {"name": "Eggplant", "quantity": "2"},
+        {"name": "Collard greens", "quantity": "2 bunches"},
+        {"name": "Cabbage", "quantity": "1 head"},
+        {"name": "Carrots", "quantity": "1 bunch"},
+        {"name": "Lemons", "quantity": "3"},
+        {"name": "Mangoes", "quantity": "2"}
+      ],
+      "Protein": [
+        {"name": "Black-eyed peas", "quantity": "1 lb dry"},
+        {"name": "Lentils", "quantity": "1 bag"},
+        {"name": "Chicken thighs", "quantity": "1 lb"},
+        {"name": "Tilapia or other white fish", "quantity": "1 lb"},
+        {"name": "Eggs", "quantity": "1 dozen"},
+        {"name": "Peanuts (raw, unsalted)", "quantity": "1 bag"},
+        {"name": "Greek yogurt", "quantity": "32 oz container"}
+      ],
+      "Grains & Pantry": [
+        {"name": "Brown rice", "quantity": "1 bag"},
+        {"name": "Millet", "quantity": "1 bag"},
+        {"name": "Fonio", "quantity": "1 bag (if available)"},
+        {"name": "Coconut milk", "quantity": "2 cans"},
+        {"name": "Tomato paste", "quantity": "1 small can"},
+        {"name": "Palm oil", "quantity": "1 small bottle (or red palm oil)"},
+        {"name": "Olive oil", "quantity": "1 bottle"},
+        {"name": "Natural peanut butter", "quantity": "1 jar"},
+        {"name": "Honey", "quantity": "1 jar"},
+        {"name": "Cinnamon", "quantity": "1 small container"},
+        {"name": "Cumin", "quantity": "1 small container"},
+        {"name": "Turmeric", "quantity": "1 small container"}
+      ]
+    }
+  },
+  {
+    "week": 8,
+    "name": "Week 8: West African",
+    "sections": {
+      "Produce": [
+        {"name": "Sweet potatoes", "quantity": "3"},
+        {"name": "Green plantains", "quantity": "4"},
+        {"name": "Yams", "quantity": "2 medium"},
+        {"name": "Okra", "quantity": "1 lb"},
+        {"name": "Roma tomatoes", "quantity": "8"},
+        {"name": "Bell peppers (yellow, orange)", "quantity": "4"},
+        {"name": "Habanero peppers", "quantity": "2 (optional)"},
+        {"name": "Red onions", "quantity": "4"},
+        {"name": "Garlic", "quantity": "1 head"},
+        {"name": "Ginger", "quantity": "1 large piece"},
+        {"name": "African eggplant", "quantity": "3 (if available)"},
+        {"name": "Kale", "quantity": "2 bunches"},
+        {"name": "Spinach", "quantity": "1 large bag"},
+        {"name": "Carrots", "quantity": "1 bunch"},
+        {"name": "Limes", "quantity": "4"},
+        {"name": "Papaya", "quantity": "1"}
+      ],
+      "Protein": [
+        {"name": "Black-eyed peas", "quantity": "1 lb dry"},
+        {"name": "Chickpeas", "quantity": "2 cans"},
+        {"name": "Chicken drumsticks", "quantity": "1.5 lb"},
+        {"name": "Mackerel or sardines", "quantity": "1 lb"},
+        {"name": "Eggs", "quantity": "1 dozen"},
+        {"name": "Cashews (raw, unsalted)", "quantity": "1 bag"},
+        {"name": "Greek yogurt", "quantity": "32 oz container"}
+      ],
+      "Grains & Pantry": [
+        {"name": "Brown rice", "quantity": "1 bag"},
+        {"name": "Sorghum", "quantity": "1 bag (if available)"},
+        {"name": "Teff", "quantity": "1 bag (if available)"},
+        {"name": "Coconut milk", "quantity": "2 cans"},
+        {"name": "Diced tomatoes", "quantity": "2 cans"},
+        {"name": "Red palm oil", "quantity": "1 small bottle"},
+        {"name": "Olive oil", "quantity": "1 bottle"},
+        {"name": "Tahini", "quantity": "1 jar"},
+        {"name": "Honey", "quantity": "1 jar"},
+        {"name": "Garam masala", "quantity": "1 small container"},
+        {"name": "Curry powder", "quantity": "1 small container"},
+        {"name": "Smoked paprika", "quantity": "1 small container"}
+      ]
+    }
+  },
+  {
+    "week": 9,
+    "name": "Week 9: South Asian",
+    "sections": {
+      "Produce": [
+        {"name": "Spinach", "quantity": "2 bunches"},
+        {"name": "Tomatoes", "quantity": "6"},
+        {"name": "Onions", "quantity": "4"},
+        {"name": "Garlic", "quantity": "1 head"},
+        {"name": "Ginger", "quantity": "1 large piece"},
+        {"name": "Green chilies", "quantity": "6"},
+        {"name": "Cilantro", "quantity": "2 bunches"},
+        {"name": "Mint", "quantity": "1 bunch"},
+        {"name": "Cucumber", "quantity": "2"},
+        {"name": "Cauliflower", "quantity": "1 head"},
+        {"name": "Eggplant", "quantity": "2"},
+        {"name": "Okra", "quantity": "1 lb"},
+        {"name": "Carrots", "quantity": "1 bunch"},
+        {"name": "Lemons", "quantity": "4"},
+        {"name": "Green beans", "quantity": "1 lb"},
+        {"name": "Sweet potatoes", "quantity": "2"}
+      ],
+      "Protein": [
+        {"name": "Lentils (red, yellow, green)", "quantity": "1 bag each"},
+        {"name": "Chickpeas", "quantity": "2 cans or 1 lb dry"},
+        {"name": "Paneer", "quantity": "8 oz (or tofu as substitute)"},
+        {"name": "Greek yogurt", "quantity": "32 oz container"},
+        {"name": "Eggs", "quantity": "1 dozen"},
+        {"name": "Chicken breast", "quantity": "1 lb"},
+        {"name": "White fish (tilapia or cod)", "quantity": "1 lb"}
+      ],
+      "Grains & Pantry": [
+        {"name": "Brown basmati rice", "quantity": "1 bag"},
+        {"name": "Quinoa", "quantity": "1 bag"},
+        {"name": "Whole wheat flour", "quantity": "1 small bag"},
+        {"name": "Coconut milk", "quantity": "1 can"},
+        {"name": "Olive oil", "quantity": "1 bottle"},
+        {"name": "Ghee", "quantity": "1 small jar"},
+        {"name": "Turmeric", "quantity": "1 small container"},
+        {"name": "Cumin seeds", "quantity": "1 small container"},
+        {"name": "Coriander seeds", "quantity": "1 small container"},
+        {"name": "Garam masala", "quantity": "1 small container"},
+        {"name": "Cardamom pods", "quantity": "1 small package"},
+        {"name": "Cinnamon sticks", "quantity": "1 small package"}
+      ]
+    }
+  },
+  {
+    "week": 10,
+    "name": "Week 10: South Asian",
+    "sections": {
+      "Produce": [
+        {"name": "Kale", "quantity": "2 bunches"},
+        {"name": "Tomatoes", "quantity": "6"},
+        {"name": "Red onions", "quantity": "4"},
+        {"name": "Garlic", "quantity": "1 head"},
+        {"name": "Ginger", "quantity": "1 large piece"},
+        {"name": "Green chilies", "quantity": "6"},
+        {"name": "Cilantro", "quantity": "2 bunches"},
+        {"name": "Curry leaves", "quantity": "1 bunch (if available)"},
+        {"name": "Cucumber", "quantity": "2"},
+        {"name": "Cabbage", "quantity": "1 head"},
+        {"name": "Bell peppers (mixed colors)", "quantity": "4"},
+        {"name": "Bitter gourd", "quantity": "2 (if available)"},
+        {"name": "Carrots", "quantity": "1 bunch"},
+        {"name": "Limes", "quantity": "4"},
+        {"name": "Peas", "quantity": "1 bag (frozen)"},
+        {"name": "Butternut squash", "quantity": "1 small"}
+      ],
+      "Protein": [
+        {"name": "Mung beans", "quantity": "1 bag"},
+        {"name": "Black lentils (urad dal)", "quantity": "1 bag"},
+        {"name": "Split peas (chana dal)", "quantity": "1 bag"},
+        {"name": "Greek yogurt", "quantity": "32 oz container"},
+        {"name": "Eggs", "quantity": "1 dozen"},
+        {"name": "Chicken thighs", "quantity": "1 lb"},
+        {"name": "Shrimp", "quantity": "1 lb"}
+      ],
+      "Grains & Pantry": [
+        {"name": "Brown basmati rice", "quantity": "1 bag"},
+        {"name": "Millet", "quantity": "1 bag"},
+        {"name": "Chickpea flour (besan)", "quantity": "1 small bag"},
+        {"name": "Coconut milk", "quantity": "1 can"},
+        {"name": "Olive oil", "quantity": "1 bottle"},
+        {"name": "Mustard oil", "quantity": "1 small bottle (if available)"},
+        {"name": "Mustard seeds", "quantity": "1 small container"},
+        {"name": "Fenugreek seeds", "quantity": "1 small container"},
+        {"name": "Fennel seeds", "quantity": "1 small container"},
+        {"name": "Curry powder", "quantity": "1 small container"},
+        {"name": "Cloves", "quantity": "1 small package"},
+        {"name": "Cinnamon powder", "quantity": "1 small container"}
+      ]
+    }
+  },
+  {
+    "week": 11,
+    "name": "Week 11: Korean",
+    "sections": {
+      "Produce": [
+        {"name": "Napa cabbage", "quantity": "1 head"},
+        {"name": "Korean radish (daikon)", "quantity": "1 large"},
+        {"name": "Carrots", "quantity": "1 bunch"},
+        {"name": "Cucumber", "quantity": "3"},
+        {"name": "Spinach", "quantity": "2 bunches"},
+        {"name": "Green onions", "quantity": "2 bunches"},
+        {"name": "Garlic", "quantity": "1 large head"},
+        {"name": "Ginger", "quantity": "1 large piece"},
+        {"name": "Shiitake mushrooms", "quantity": "8 oz"},
+        {"name": "Enoki mushrooms", "quantity": "2 packages"},
+        {"name": "Bean sprouts", "quantity": "1 package"},
+        {"name": "Perilla leaves", "quantity": "1 bunch (if available)"},
+        {"name": "Asian pears", "quantity": "2"},
+        {"name": "Apples", "quantity": "3"},
+        {"name": "Bell peppers", "quantity": "3 (mixed colors)"},
+        {"name": "Sweet potatoes", "quantity": "2"}
+      ],
+      "Protein": [
+        {"name": "Tofu (firm)", "quantity": "2 packages"},
+        {"name": "Eggs", "quantity": "1 dozen"},
+        {"name": "Beef (sirloin, thinly sliced)", "quantity": "1 lb"},
+        {"name": "Chicken breast", "quantity": "1 lb"},
+        {"name": "Mackerel or sardines", "quantity": "1 lb"},
+        {"name": "Tempeh", "quantity": "1 package"},
+        {"name": "Edamame", "quantity": "1 bag (frozen)"}
+      ],
+      "Grains & Pantry": [
+        {"name": "Short-grain brown rice", "quantity": "1 bag"},
+        {"name": "Sweet rice (glutinous rice)", "quantity": "1 small bag"},
+        {"name": "Buckwheat noodles (soba)", "quantity": "1 package"},
+        {"name": "Gochujang (Korean chili paste)", "quantity": "1 small container"},
+        {"name": "Gochugaru (Korean chili flakes)", "quantity": "1 small container"},
+        {"name": "Doenjang (Korean soybean paste)", "quantity": "1 small container"},
+        {"name": "Low-sodium soy sauce", "quantity": "1 bottle"},
+        {"name": "Rice vinegar", "quantity": "1 bottle"},
+        {"name": "Sesame oil", "quantity": "1 bottle"},
+        {"name": "Sesame seeds", "quantity": "1 small bag"},
+        {"name": "Seaweed (nori, kelp)", "quantity": "1 package each"},
+        {"name": "Honey", "quantity": "1 jar"}
+      ]
+    }
+  },
+  {
+    "week": 12,
+    "name": "Week 12: Korean",
+    "sections": {
+      "Produce": [
+        {"name": "Bok choy", "quantity": "2 bunches"},
+        {"name": "Korean radish (daikon)", "quantity": "1 large"},
+        {"name": "Carrots", "quantity": "1 bunch"},
+        {"name": "Kirby cucumbers", "quantity": "6"},
+        {"name": "Kale", "quantity": "2 bunches"},
+        {"name": "Green onions", "quantity": "2 bunches"},
+        {"name": "Garlic", "quantity": "1 large head"},
+        {"name": "Ginger", "quantity": "1 large piece"},
+        {"name": "King oyster mushrooms", "quantity": "8 oz"},
+        {"name": "Shimeji mushrooms", "quantity": "2 packages (if available)"},
+        {"name": "Soybean sprouts", "quantity": "1 package"},
+        {"name": "Crown daisy (ssukgat)", "quantity": "1 bunch (if available)"},
+        {"name": "Asian pears", "quantity": "2"},
+        {"name": "Persimmons", "quantity": "2 (if in season)"},
+        {"name": "Zucchini", "quantity": "2"},
+        {"name": "Kabocha squash", "quantity": "1 small"}
+      ],
+      "Protein": [
+        {"name": "Tofu (silken and extra firm)", "quantity": "1 package each"},
+        {"name": "Eggs", "quantity": "1 dozen"},
+        {"name": "Pork (shoulder, thinly sliced)", "quantity": "1 lb"},
+        {"name": "Chicken thighs", "quantity": "1 lb"},
+        {"name": "Squid", "quantity": "1 lb"},
+        {"name": "Tempeh", "quantity": "1 package"},
+        {"name": "Edamame", "quantity": "1 bag (frozen)"}
+      ],
+      "Grains & Pantry": [
+        {"name": "Short-grain brown rice", "quantity": "1 bag"},
+        {"name": "Black rice", "quantity": "1 small bag"},
+        {"name": "Korean sweet potato noodles (dangmyeon)", "quantity": "1 package"},
+        {"name": "Gochujang (Korean chili paste)", "quantity": "1 small container"},
+        {"name": "Gochugaru (Korean chili flakes)", "quantity": "1 small container"},
+        {"name": "Doenjang (Korean soybean paste)", "quantity": "1 small container"},
+        {"name": "Low-sodium soy sauce", "quantity": "1 bottle"},
+        {"name": "Rice vinegar", "quantity": "1 bottle"},
+        {"name": "Perilla oil", "quantity": "1 small bottle (if available)"},
+        {"name": "Black sesame seeds", "quantity": "1 small bag"},
+        {"name": "Dried anchovies", "quantity": "1 small package"},
+        {"name": "Honey", "quantity": "1 jar"}
+      ]
+    }
+  },
+  {
+    "week": 13,
+    "name": "Week 13: Nordic",
+    "sections": {
+      "Produce": [
+        {"name": "Kale", "quantity": "2 bunches"},
+        {"name": "Cabbage", "quantity": "1 head"},
+        {"name": "Beets", "quantity": "1 bunch"},
+        {"name": "Carrots", "quantity": "1 bunch"},
+        {"name": "Potatoes", "quantity": "2 lb"},
+        {"name": "Onions", "quantity": "4"},
+        {"name": "Garlic", "quantity": "1 head"},
+        {"name": "Leeks", "quantity": "2"},
+        {"name": "Mushrooms (chanterelle if available)", "quantity": "8 oz"},
+        {"name": "Apples", "quantity": "6"},
+        {"name": "Lingonberries", "quantity": "1 container (or cranberries)"},
+        {"name": "Blueberries", "quantity": "1 container"},
+        {"name": "Cucumber", "quantity": "2"},
+        {"name": "Dill", "quantity": "2 bunches"},
+        {"name": "Parsley", "quantity": "1 bunch"},
+        {"name": "Fennel", "quantity": "1 bulb"}
+      ],
+      "Protein": [
+        {"name": "Salmon", "quantity": "1 lb"},
+        {"name": "Herring", "quantity": "8 oz (fresh or pickled)"},
+        {"name": "Eggs", "quantity": "1 dozen"},
+        {"name": "Greek yogurt", "quantity": "32 oz container"},
+        {"name": "Cottage cheese", "quantity": "16 oz container"},
+        {"name": "Chicken breast", "quantity": "1 lb"},
+        {"name": "Lentils", "quantity": "1 bag"}
+      ],
+      "Grains & Pantry": [
+        {"name": "Rye bread", "quantity": "1 loaf"},
+        {"name": "Rolled oats", "quantity": "1 container"},
+        {"name": "Barley", "quantity": "1 bag"},
+        {"name": "Flaxseeds", "quantity": "1 small bag"},
+        {"name": "Walnuts", "quantity": "1 bag"},
+        {"name": "Almonds", "quantity": "1 bag"},
+        {"name": "Olive oil", "quantity": "1 bottle"},
+        {"name": "Canola oil", "quantity": "1 bottle"},
+        {"name": "Honey", "quantity": "1 jar"},
+        {"name": "Cardamom", "quantity": "1 small container"},
+        {"name": "Dill seeds", "quantity": "1 small container"},
+        {"name": "Caraway seeds", "quantity": "1 small container"}
+      ]
+    }
+  },
+  {
+    "week": 14,
+    "name": "Week 14: Nordic",
+    "sections": {
+      "Produce": [
+        {"name": "Spinach", "quantity": "2 bunches"},
+        {"name": "Red cabbage", "quantity": "1 head"},
+        {"name": "Rutabaga", "quantity": "1"},
+        {"name": "Parsnips", "quantity": "1 bunch"},
+        {"name": "Fingerling potatoes", "quantity": "2 lb"},
+        {"name": "Red onions", "quantity": "4"},
+        {"name": "Garlic", "quantity": "1 head"},
+        {"name": "Leeks", "quantity": "2"},
+        {"name": "Mushrooms (porcini if available)", "quantity": "8 oz"},
+        {"name": "Pears", "quantity": "4"},
+        {"name": "Cloudberries", "quantity": "1 container (or raspberries)"},
+        {"name": "Blackberries", "quantity": "1 container"},
+        {"name": "Cucumber", "quantity": "2"},
+        {"name": "Chives", "quantity": "1 bunch"},
+        {"name": "Thyme", "quantity": "1 bunch"},
+        {"name": "Celeriac", "quantity": "1 small"}
+      ],
+      "Protein": [
+        {"name": "Arctic char", "quantity": "1 lb (or trout)"},
+        {"name": "Mackerel", "quantity": "1 lb"},
+        {"name": "Eggs", "quantity": "1 dozen"},
+        {"name": "Skyr", "quantity": "32 oz container (or Greek yogurt)"},
+        {"name": "Quark", "quantity": "16 oz container (or ricotta)"},
+        {"name": "Chicken thighs", "quantity": "1 lb"},
+        {"name": "Split peas", "quantity": "1 bag"}
+      ],
+      "Grains & Pantry": [
+        {"name": "Crispbread (knäckebröd)", "quantity": "1 package"},
+        {"name": "Steel-cut oats", "quantity": "1 container"},
+        {"name": "Farro", "quantity": "1 bag"},
+        {"name": "Pumpkin seeds", "quantity": "1 small bag"},
+        {"name": "Hazelnuts", "quantity": "1 bag"},
+        {"name": "Pine nuts", "quantity": "1 small bag"},
+        {"name": "Olive oil", "quantity": "1 bottle"},
+        {"name": "Rapeseed oil", "quantity": "1 bottle"},
+        {"name": "Maple syrup", "quantity": "1 bottle"},
+        {"name": "Fennel seeds", "quantity": "1 small container"},
+        {"name": "Juniper berries", "quantity": "1 small container"},
+        {"name": "Allspice", "quantity": "1 small container"}
+      ]
+    }
+  }
+]

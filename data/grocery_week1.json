@@ -1,0 +1,48 @@
+{
+  "week": 1,
+  "name": "Week 1: Mediterranean (Spring)",
+  "sections": {
+    "Produce": [
+      {"name": "Fresh berries (strawberries, blueberries)", "quantity": "2 containers"},
+      {"name": "Apples", "quantity": "6"},
+      {"name": "Oranges", "quantity": "4"},
+      {"name": "Lemons", "quantity": "3"},
+      {"name": "Cucumber", "quantity": "2"},
+      {"name": "Tomatoes", "quantity": "6"},
+      {"name": "Bell peppers (red, yellow)", "quantity": "3"},
+      {"name": "Zucchini", "quantity": "2"},
+      {"name": "Eggplant", "quantity": "1"},
+      {"name": "Carrots", "quantity": "1 bunch"},
+      {"name": "Spinach", "quantity": "1 large bag"},
+      {"name": "Mixed salad greens", "quantity": "1 large bag"},
+      {"name": "Fresh herbs (basil, parsley, mint)", "quantity": "1 bunch each"},
+      {"name": "Garlic", "quantity": "1 head"},
+      {"name": "Onions", "quantity": "3"},
+      {"name": "Spring asparagus", "quantity": "1 bunch"},
+      {"name": "Spring peas", "quantity": "1 cup"}
+    ],
+    "Protein": [
+      {"name": "Greek yogurt", "quantity": "32 oz container"},
+      {"name": "Feta cheese", "quantity": "8 oz"},
+      {"name": "Fresh fish (salmon, cod, or sea bass)", "quantity": "1 lb"},
+      {"name": "Chicken breast", "quantity": "1 lb"},
+      {"name": "Eggs", "quantity": "1 dozen"},
+      {"name": "Chickpeas", "quantity": "2 cans"},
+      {"name": "Lentils", "quantity": "1 bag"}
+    ],
+    "Grains & Pantry": [
+      {"name": "Whole grain bread", "quantity": "1 loaf"},
+      {"name": "Quinoa", "quantity": "1 bag"},
+      {"name": "Rolled oats", "quantity": "1 container"},
+      {"name": "Chia seeds", "quantity": "1 small bag"},
+      {"name": "Walnuts", "quantity": "1 bag"},
+      {"name": "Almonds", "quantity": "1 bag"},
+      {"name": "Olive oil (extra virgin)", "quantity": "1 bottle"},
+      {"name": "Honey", "quantity": "1 jar"},
+      {"name": "Hummus", "quantity": "1 container"},
+      {"name": "Almond butter", "quantity": "1 jar"},
+      {"name": "Kalamata olives", "quantity": "1 jar"},
+      {"name": "Dried herbs (oregano, thyme, rosemary)", "quantity": "as needed"}
+    ]
+  }
+}

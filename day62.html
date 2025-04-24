@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>365-Day Wellness Calendar - Day 62</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>365-Day Wellness Calendar</h1>
+        <div class="theme-toggle-container">
+            <label for="theme-toggle" class="theme-label">Dark Mode</label>
+            <input type="checkbox" id="theme-toggle" class="theme-toggle">
+        </div>
+    </header>
+    
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-link active">Calendar</a></li>
+            <li><a href="exercise.html" class="nav-link">Exercise Program</a></li>
+            <li><a href="grocery.html" class="nav-link">Grocery Lists</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <!-- Calendar View -->
+        <section id="calendar-view" class="view-section active">
+            <div class="day-navigation">
+                <a href="day61.html" class="nav-button">Previous Day</a>
+                <h2 id="current-date">June 25, 2025</h2>
+                <a href="day63.html" class="nav-button">Next Day</a>
+            </div>
+            
+            <div class="dietary-style-container">
+                <h3>Dietary Style:</h3>
+                <div id="dietary-style">Mediterranean (Summer)</div>
+            </div>
+            
+            <div class="day-content">
+                <div class="content-section">
+                    <h3>Meal Plan</h3>
+                    <div id="meal-plan" class="content-container">
+                        <div class="meal-item">
+                            <h4>Breakfast</h4>
+                            <p>Chilled overnight oats with peaches and almonds</p>
+                            <div class="checkbox-container">
+                                <input type="checkbox" class="meal-checkbox" id="meal-breakfast-day62">
+                                <label for="meal-breakfast-day62">Completed</label>
+                            </div>
+                        </div>
+                        <div class="meal-item">
+                            <h4>Morning Snack</h4>
+                            <p>Greek yogurt with fresh berries</p>
+                            <div class="checkbox-container">
+                                <input type="checkbox" class="meal-checkbox" id="meal-morning-snack-day62">
+                                <label for="meal-morning-snack-day62">Completed</label>
+                            </div>
+                        </div>
+                        <div class="meal-item">
+                            <h4>Lunch</h4>
+                            <p>Niçoise salad with tuna, eggs, olives, and summer vegetables</p>
+                            <div class="checkbox-container">
+                                <input type="checkbox" class="meal-checkbox" id="meal-lunch-day62">
+                                <label for="meal-lunch-day62">Completed</label>
+                            </div>
+                        </div>
+                        <div class="meal-item">
+                            <h4>Afternoon Snack</h4>
+                            <p>Melon wrapped in prosciutto (small portion)</p>
+                            <div class="checkbox-container">
+                                <input type="checkbox" class="meal-checkbox" id="meal-afternoon-snack-day62">
+                                <label for="meal-afternoon-snack-day62">Completed</label>
+                            </div>
+                        </div>
+                        <div class="meal-item">
+                            <h4>Dinner</h4>
+                            <p>Grilled vegetable and halloumi skewers with quinoa tabbouleh</p>
+                            <div class="checkbox-container">
+                                <input type="checkbox" class="meal-checkbox" id="meal-dinner-day62">
+                                <label for="meal-dinner-day62">Completed</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="content-section">
+                    <h3>Supplements</h3>
+                    <div id="supplement-plan" class="content-container">
+                        <div class="supplement-time">
+                            <h4>Morning Supplements (Before Work)</h4>
+                            <ul class="supplement-list">
+                                <li>
+                                    <input type="checkbox" class="supplement-checkbox" id="supplement-morning-creatine-day62">
+                                    <label for="supplement-morning-creatine-day62">Creatine (5g)</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="supplement-checkbox" id="supplement-morning-collagen-day62">
+                                    <label for="supplement-morning-collagen-day62">Collagen + Vitamin C</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="supplement-checkbox" id="supplement-morning-omega3-day62">
+                                    <label for="supplement-morning-omega3-day62">Omega-3 (1-2g EPA+DHA)</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="supplement-checkbox" id="supplement-morning-vitamin-d-day62">
+                                    <label for="supplement-morning-vitamin-d-day62">Vitamin D3 + K2</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="supplement-checkbox" id="supplement-morning-lions-mane-day62">
+                                    <label for="supplement-morning-lions-mane-day62">Lion's Mane (500mg)</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="supplement-checkbox" id="supplement-morning-citicoline-day62">
+                                    <label for="supplement-morning-citicoline-day62">Citicoline (250mg)</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="supplement-checkbox" id="supplement-morning-tongkat-day62">
+                                    <label for="supplement-morning-tongkat-day62">Tongkat Ali (200mg)</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="supplement-time">
+                            <h4>Evening Supplements (Before Dinner or Bed)</h4>
+                            <ul class="supplement-list">
+                                <li>
+                                    <input type="checkbox" class="supplement-checkbox" id="supplement-evening-magnesium-day62">
+                                    <label for="supplement-evening-magnesium-day62">Magnesium Glycinate (400mg)</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="supplement-checkbox" id="supplement-evening-ashwagandha-day62">
+                                    <label for="supplement-evening-ashwagandha-day62">Ashwagandha (600mg, KSM-66)</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="supplement-checkbox" id="supplement-evening-hyaluronic-day62">
+                                    <label for="supplement-evening-hyaluronic-day62">Hyaluronic Acid (200mg)</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="supplement-checkbox" id="supplement-evening-curcumin-day62">
+                                    <label for="supplement-evening-curcumin-day62">Curcumin + Piperine (500mg)</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="supplement-checkbox" id="supplement-evening-rhodiola-day62">
+                                    <label for="supplement-evening-rhodiola-day62">Rhodiola (300mg, optional)</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="supplement-checkbox" id="supplement-evening-melatonin-day62">
+                                    <label for="supplement-evening-melatonin-day62">Melatonin (0.3–1mg, optional)</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="content-section">
+                    <h3>Exercise</h3>
+                    <div id="exercise-plan" class="content-container">
+                        <p class="exercise-summary">Mobility, Animal Flow, or Rope Flow (25-30 minutes)</p>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="exercise-checkbox" id="exercise-day62">
+                            <label for="exercise-day62">Completed</label>
+                        </div>
+                        <a href="exercise.html" class="view-details-link">View detailed workout</a>
+                    </div>
+                </div>
+                
+                <div class="content-section">
+                    <h3>Daily Habits</h3>
+                    <div id="habits-container" class="content-container">
+                        <div class="habit-item">
+                            <input type="checkbox" class="habit-checkbox" id="habit-hydration-day62">
+                            <label for="habit-hydration-day62">Hydration (Drink 2-3 liters of water)</label>
+                        </div>
+                        <div class="habit-item">
+                            <input type="checkbox" class="habit-checkbox" id="habit-sleep-day62">
+                            <label for="habit-sleep-day62">Sleep (7-9 hours of quality sleep)</label>
+                        </div>
+                        <div class="habit-item">
+                            <input type="checkbox" class="habit-checkbox" id="habit-meditation-day62">
+                            <label for="habit-meditation-day62">Meditation (10-20 minutes)</label>
+                        </div>
+                        <div class="habit-item">
+                            <input type="checkbox" class="habit-checkbox" id="habit-nature-day62">
+                            <label for="habit-nature-day62">Nature Time (30+ minutes outdoors)</label>
+                        </div>
+                        <div class="habit-item">
+                            <input type="checkbox" class="habit-checkbox" id="habit-reading-day62">
+                            <label for="habit-reading-day62">Reading (20+ minutes)</label>
+                        </div>
+                        <div class="habit-item">
+                            <input type="checkbox" class="habit-checkbox" id="habit-gratitude-day62">
+                            <label for="habit-gratitude-day62">Gratitude Practice (List 3 things)</label>
+                        </div>
+                        <div class="habit-item">
+                            <input type="checkbox" class="habit-checkbox" id="habit-connection-day62">
+                            <label for="habit-connection-day62">Social Connection (Meaningful interaction)</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="content-section">
+                    <h3>Fasting Protocol</h3>
+                    <div id="fasting-info" class="content-container">
+                        <div class="fasting-day">
+                            <h4>16:8 Intermittent Fasting</h4>
+                            <p>16 hour fast (8pm - 12pm), 8 hour eating window (12pm - 8pm)</p>
+                            <p>Drink water, black coffee, or plain tea during fasting period</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="content-section">
+                    <h3>Daily Quote</h3>
+                    <div id="quote-container" class="content-container quote">
+                        "Health is a state of complete harmony of the body, mind, and spirit." - B.K.S. Iyengar
+                    </div>
+                </div>
+                
+                <div class="content-section">
+                    <h3>Notes</h3>
+                    <textarea id="notes-textarea-day62" class="notes-textarea" placeholder="Add your notes here..."></textarea>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 365-Day Wellness Calendar</p>
+    </footer>
+    
+    <script>
+        // Simple script for theme toggle only
+        document.addEventListener('DOMContentLoaded', function() {
+            const themeToggle = document.getElementById('theme-toggle');
+            
+            themeToggle.addEventListener('change', function() {
+                document.body.classList.toggle('dark-mode');
+                localStorage.setItem('darkMode', this.checked);
+            });
+            
+            // Check for saved theme preference
+            const darkMode = localStorage.getItem('darkMode') === 'true';
+            themeToggle.checked = darkMode;
+            if (darkMode) {
+                document.body.classList.add('dark-mode');
+            }
+            
+            // Save checkbox states
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(checkbox => {
+                // Load saved state
+                const savedState = localStorage.getItem(checkbox.id);
+                if (savedState === 'true') {
+                    checkbox.checked = true;
+                }
+                
+                // Save state on change
+                checkbox.addEventListener('change', function() {
+                    localStorage.setItem(this.id, this.checked);
+                });
+            });
+            
+            // Save notes
+            const notesTextarea = document.getElementById('notes-textarea-day62');
+            const savedNotes = localStorage.getItem('notes-day62');
+            if (savedNotes) {
+                notesTextarea.value = savedNotes;
+            }
+            
+            notesTextarea.addEventListener('input', function() {
+                localStorage.setItem('notes-day62', this.value);
+            });
+        });
+    </script>
+</body>
+</html>
